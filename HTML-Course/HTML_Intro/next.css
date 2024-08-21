@@ -1,0 +1,85 @@
+h1 {
+    background-color: #bf96c2;
+    color: rgb(53, 14, 44);
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#container {
+    text-align: center;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 30%;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid rgb(128, 128, 128);
+
+}
+
+.submit {
+    width: 10%;
+    border-radius: 15px;
+    font-size: 15px;
+    border: 2px solid rgb(128, 128, 128);
+    background-color: rgb(124, 209, 124);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(31, 150, 31);
+}
+
+.content {
+    text-align: center;
+    flex-direction: column;
+    border: 2px solid rgb(199, 198, 180);
+    padding: 20px;
+    width: 400px;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+table th,
+td {
+    border: 1px solid #33333333;
+    text-align: center;
+    justify-content: center;
+}
+
+th,
+td {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #e9a7a7;
+}
