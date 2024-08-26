@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <h2>Login Form</h2>
+    <form action="/">
+        <p><label for="name">Name</label></p>
+        <input id="name" name="name" type="text" placeholder="Enter your name">
+        <p><label for="email">Email</label></p>
+        <input id="email" type="email" name="email" placeholder="your email">
+        <p><label for="mobile">Mobile Number</label></p>
+        <input id="mobile" name="mobile" type="tel" placeholder="Enter your mobile number">
+        <p><label for="password">Password</label></p>
+        <input id="password" name="password" type="password" placeholder="Enter your password">
+        <p>
+        <button type="submit">Reset</button>
+        <button type="submit">Submit</button>
+        </p>
+    </form>
+
+<div hidden>
+<h2>Youtube Search</h2>
+    <form action="https://www.youtube.com/results">
+        <input id="youtube" type="text" name="search_query">
+        <button>Search on Youtube</button>
+    </form>
+    <h2>FilpCard</h2>
+    <form action="https://www.flipcard.com/results">
+        <!-- connect krna k liya uses hota hai ya label ma for  aur focues krna k liya bhi uses hota hai. -->
+
+        <label for="youtube">Flipcard Search</label> 
+        <input id="flipcard" type="text" name="q">
+        <button type="button">Search on FilpCard</button>
+    </form>
+    <h2>My Form</h2>
+    <form action="https://www.flipcard.com/results">
+        <input type="text" placeholder="Please Enter your name">
+        <input type="password" placeholder="Enter your password" minlength="6" maxlength="10">
+        <input type="email" placeholder="Enter your email">
+        <input type="number" min="100" max="120">
+        <br>
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="time">
+        <button>Submit</button> 
+    </form> 
+</div>
+    
+</body>
+</html>
