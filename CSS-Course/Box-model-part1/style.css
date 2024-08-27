@@ -1,0 +1,18 @@
+.one {
+    background-color: blueviolet;
+    /* if you want set width and hight using this method:  */
+    max-width: 500px;
+    /* max-width: 50%; */
+    /* word-break: break-all; */
+}
+
+.two {
+    background-color: yellow;
+}
+
+p {
+    background-color: rgb(133, 145, 39);
+    max-width: 500px;
+    min-height: 100px;
+    padding: 20px;
+}
