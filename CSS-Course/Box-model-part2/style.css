@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: grey;
+}
+/* .parent {
+
+    background-color: blueviolet;
+    color: yellow;
+} */
+
+h1 {
+    background-color: aquamarine;
+    width: 20%;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+h2 {
+    background-color: red;
+    width: 35%;
+    text-align: center;
+        margin-left: 25px;
+        margin-top: 20px;
+}
+
+p {
+    background-color:green;
+    text-align: center;
+    width: 25%;
+    margin-left: 50px;
+}
+
+.one {
+    background-color:rgb(133, 145, 39);
+    color: blue;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid teal;
+    outline: 5px solid gold;
+}
+
+.two {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    border: 10px solid goldenrod;
+    border-radius: 50%;
+    overflow: hidden;
+    outline: 5px solid brown;
+}
+
+img {
+    width: 110%;
+    /* margin-top: -10px; */
+    margin-left: -23px;
+    
+    /* height: 110%; */
+}
+
+.hover-aff 
+    {
+            animation: floatImage 4s ease-in-out infinite;
+        }
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2.4rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
