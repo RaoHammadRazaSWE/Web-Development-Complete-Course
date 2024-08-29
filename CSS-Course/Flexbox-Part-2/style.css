@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.parent {
+    padding: 10px;
+    border: 4px solid indianred;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    row-gap: 16px;
+    /* column-gap: 32px; */
+
+}
+
+.parent span {
+    /* border: 4px solid cadetblue; */
+    background-color: cadetblue;
+    /* flex-shrink: 0; */
+    /* width: 200px; */
+    /* width: 100%; */
+    /* height: 300px; */
+    /* flex-basis: 100%; 
+     */
+    /* margin-inline: auto; */
+    /* align-self: center; */
+}
+
+.parent p {
+    /* border: 4px solid blueviolet; */
+    background-color: blueviolet;
+    margin: 0;
+    /* width: 400px; */
+    /* flex-shrink: 0; */
+    /* flex-grow: 1; */
+    margin-left: 25px;
+}
+
+.parent a {
+    /* border: 4px solid yellowgreen; */
+    background-color: yellowgreen;
+    /* flex-shrink: 0; */
+    /* width: 400px; */
+    height: 200px;
+    /* order: 3; */
+    /* align-self: start; */
+    /* margin-left: auto; */
+    /* margin-block: auto; */
+}
+
+.parent > * {
+    width: 200px;
+    /* margin-left: 16px; */
+}
+
+.parent > * + * {
+    margin-left: 16px;
+}
