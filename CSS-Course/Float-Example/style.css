@@ -1,0 +1,17 @@
+img {
+    float: left;
+    /* float: right; */
+    /* margin-right: 0.75rem; */
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    width: 200px;
+    /* position: absolute; */
+}
+.container {
+    background-color: aquamarine;
+    /* display: flow-root; */
+}
+.first-paragraph {
+    background-color: goldenrod;
+    /* clear: both; */
+}
