@@ -1,0 +1,61 @@
+.square {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border: 25px solid blue;
+    print-color-adjust: exact; /* this is use only firebox */
+    -webkit-print-color-adjust: exact;
+}
+
+/* This is media Queries Writen without partatheses and media
+feature write in partatheses */
+
+/* @media print {
+    h1 {
+        font-size: 2rem;
+    }
+    .square {
+        border: 25px solid red;
+        background-color: aquamarine;
+    }
+} */
+
+/* Media Features */
+
+/* @media (max-height: 700px) {
+    .square {
+        border: 25px solid red;
+        background-color: aquamarine;
+    }
+} */
+
+/* @media (max-width: 700px){
+    .square {
+            border: 25px solid red;
+            background-color: aquamarine;
+        }
+} */
+
+/* @media (min-width: 700px) {
+    .square {
+        border: 25px solid red;
+        background-color: aquamarine;
+    }
+} */
+
+/* 
+@media(width <= 700px) {
+    .square {
+        border: 25px solid red;
+        background-color: aquamarine;
+    }
+} */
+
+/* How to combine Both of Them  */
+
+@media print and (min-width: 700px) {
+    .square {
+        border: 25px solid red;
+        background-color: aquamarine;
+    }
+}
