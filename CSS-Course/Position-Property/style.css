@@ -1,0 +1,54 @@
+div {
+    position: relative;
+    background-color: chartreuse;
+    /* top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px; */
+
+    /* using short cut property above. */
+
+    /* inset: 5px; */
+}
+
+main {
+    overflow-y: scroll;
+}
+ul {
+    position: relative;
+    background-color: brown;
+    height: 300px;
+    overflow-y: scroll;
+    margin-top: -100px;
+}
+
+.css-element {
+    background-color:aqua;
+    position: relative;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px; 
+
+}
+
+
+.js-element {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: darkorange;
+}
+
+.html-element {
+    background-color: gold;
+    position:sticky;
+
+    top : 25px;
+}
+
+header {
+    background-color: burlywood;
+    position: sticky;
+    top: 1px;
+}
