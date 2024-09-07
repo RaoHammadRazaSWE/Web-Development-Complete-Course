@@ -1,0 +1,63 @@
+:root {
+    --primary-brand-color: #fa6400;
+        --secondary-brand-color: #00838f;
+        --rounded: 24px;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    /* color: #2ea44f; */
+    color: var(--secondary-brand-color);
+}
+
+a {
+    /* color: #ea4c89; */
+    color: var(--secondary-brand-color, hotpink);
+    text-decoration: none;
+    border: 2px solid #ea4c89;
+    padding: 0.5em 1em;
+    font-size: 14px;
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+strong {
+    /* color: #ea4c89; */
+    color: var(--primary-brand-color);
+}
+
+span {
+    color: #ea4c89;
+}
+
+code {
+    color: #2ea44f;
+}
+
+button {
+    border: none;
+    color: #fff;
+    padding: 0.5em 1em;
+    /* border-radius: 4px; */
+    border-radius: var(--rounded);
+    font-size: 14px;
+    font-family: inherit;
+    height: 32px;
+}
+
+.previous-button {
+    background-color: #ea4c89;
+}
+
+.next-button {
+    background-color: #2ea44f;
+}
