@@ -11,8 +11,9 @@ console.log('Program Started')
 const friends = ['Rao', 'Ali', 'Hammad', 'Raza', 'Arif']
 
 let i = 0;
-while( i < 5){
-    console.log(friends[i]);
+while( i < friends.length){
+    console.log(`${i + 1}. ${friends[i]}`);
+    friends[i] = friends[i] + 'Coder'
     i++;
 
 }
