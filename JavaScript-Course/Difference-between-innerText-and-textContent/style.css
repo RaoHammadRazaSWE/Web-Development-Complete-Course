@@ -1,0 +1,17 @@
+#cc-image {
+    border: 4px solid green;
+}
+
+[alt="javascript roadmap"]{
+    border: 4px solid hotpink;
+}
+
+p b{
+    display: none;
+}
+
+/* Hidden method any element */
+
+p b {
+    visibility: hidden;
+}
